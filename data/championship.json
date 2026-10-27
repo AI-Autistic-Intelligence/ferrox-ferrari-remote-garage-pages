@@ -1,0 +1,297 @@
+{
+  "warnings": [],
+  "ferrari": {
+    "season": 2026,
+    "round": 18,
+    "constructor": {
+      "position": 2,
+      "points": 474,
+      "wins": 2,
+      "constructorId": "ferrari",
+      "name": "Ferrari"
+    },
+    "gapToLeader": 133,
+    "gapToNextAbove": 133,
+    "drivers": [
+      {
+        "position": 3,
+        "points": 241,
+        "wins": 1,
+        "driverId": "hamilton",
+        "code": "HAM",
+        "name": "Lewis Hamilton",
+        "constructor": "Ferrari"
+      },
+      {
+        "position": 5,
+        "points": 233,
+        "wins": 1,
+        "driverId": "leclerc",
+        "code": "LEC",
+        "name": "Charles Leclerc",
+        "constructor": "Ferrari"
+      }
+    ]
+  },
+  "drivers": [
+    {
+      "position": 1,
+      "points": 365,
+      "wins": 9,
+      "driverId": "antonelli",
+      "code": "ANT",
+      "name": "Andrea Kimi Antonelli",
+      "constructor": "Mercedes"
+    },
+    {
+      "position": 2,
+      "points": 242,
+      "wins": 3,
+      "driverId": "russell",
+      "code": "RUS",
+      "name": "George Russell",
+      "constructor": "Mercedes"
+    },
+    {
+      "position": 3,
+      "points": 241,
+      "wins": 1,
+      "driverId": "hamilton",
+      "code": "HAM",
+      "name": "Lewis Hamilton",
+      "constructor": "Ferrari"
+    },
+    {
+      "position": 4,
+      "points": 236,
+      "wins": 2,
+      "driverId": "max_verstappen",
+      "code": "VER",
+      "name": "Max Verstappen",
+      "constructor": "Red Bull"
+    },
+    {
+      "position": 5,
+      "points": 233,
+      "wins": 1,
+      "driverId": "leclerc",
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "constructor": "Ferrari"
+    },
+    {
+      "position": 6,
+      "points": 211,
+      "wins": 2,
+      "driverId": "norris",
+      "code": "NOR",
+      "name": "Lando Norris",
+      "constructor": "McLaren"
+    },
+    {
+      "position": 7,
+      "points": 144,
+      "wins": 0,
+      "driverId": "piastri",
+      "code": "PIA",
+      "name": "Oscar Piastri",
+      "constructor": "McLaren"
+    },
+    {
+      "position": 8,
+      "points": 105,
+      "wins": 0,
+      "driverId": "hadjar",
+      "code": "HAD",
+      "name": "Isack Hadjar",
+      "constructor": "Red Bull"
+    },
+    {
+      "position": 9,
+      "points": 77,
+      "wins": 0,
+      "driverId": "lawson",
+      "code": "LAW",
+      "name": "Liam Lawson",
+      "constructor": "Red Bull"
+    },
+    {
+      "position": 10,
+      "points": 42,
+      "wins": 0,
+      "driverId": "gasly",
+      "code": "GAS",
+      "name": "Pierre Gasly",
+      "constructor": "Alpine F1 Team"
+    }
+  ],
+  "constructors": [
+    {
+      "position": 1,
+      "points": 607,
+      "wins": 12,
+      "constructorId": "mercedes",
+      "name": "Mercedes"
+    },
+    {
+      "position": 2,
+      "points": 474,
+      "wins": 2,
+      "constructorId": "ferrari",
+      "name": "Ferrari"
+    },
+    {
+      "position": 3,
+      "points": 355,
+      "wins": 2,
+      "constructorId": "red_bull",
+      "name": "Red Bull"
+    },
+    {
+      "position": 4,
+      "points": 355,
+      "wins": 2,
+      "constructorId": "mclaren",
+      "name": "McLaren"
+    },
+    {
+      "position": 5,
+      "points": 102,
+      "wins": 0,
+      "constructorId": "rb",
+      "name": "RB F1 Team"
+    },
+    {
+      "position": 6,
+      "points": 69,
+      "wins": 0,
+      "constructorId": "alpine",
+      "name": "Alpine F1 Team"
+    },
+    {
+      "position": 7,
+      "points": 30,
+      "wins": 0,
+      "constructorId": "haas",
+      "name": "Haas F1 Team"
+    },
+    {
+      "position": 8,
+      "points": 23,
+      "wins": 0,
+      "constructorId": "audi",
+      "name": "Audi"
+    },
+    {
+      "position": 9,
+      "points": 12,
+      "wins": 0,
+      "constructorId": "williams",
+      "name": "Williams"
+    },
+    {
+      "position": 10,
+      "points": 7,
+      "wins": 0,
+      "constructorId": "aston_martin",
+      "name": "Aston Martin"
+    },
+    {
+      "position": 11,
+      "points": 0,
+      "wins": 0,
+      "constructorId": "cadillac",
+      "name": "Cadillac F1 Team"
+    }
+  ],
+  "nextRace": {
+    "season": 2026,
+    "round": 19,
+    "raceName": "Mexico City Grand Prix",
+    "circuitName": "Autódromo Hermanos Rodríguez",
+    "locality": "Mexico City",
+    "country": "Mexico",
+    "latitude": 19.4042,
+    "longitude": -99.0907,
+    "raceStartUtc": "2026-11-01T20:00:00Z",
+    "sessions": [
+      {
+        "name": "Practice 1",
+        "startUtc": "2026-10-30T18:30:00Z"
+      },
+      {
+        "name": "Practice 2",
+        "startUtc": "2026-10-30T22:00:00Z"
+      },
+      {
+        "name": "Practice 3",
+        "startUtc": "2026-10-31T17:30:00Z"
+      },
+      {
+        "name": "Qualifying",
+        "startUtc": "2026-10-31T21:00:00Z"
+      },
+      {
+        "name": "Race",
+        "startUtc": "2026-11-01T20:00:00Z"
+      }
+    ]
+  },
+  "forecast": [
+    {
+      "name": "Practice 1",
+      "startUtc": "2026-10-30T18:30:00Z",
+      "forecast": {
+        "time": "2026-10-30T18:00Z",
+        "temperature": 21.4,
+        "precipitationProbability": 0,
+        "weatherCode": 2,
+        "windSpeed": 3.9
+      }
+    },
+    {
+      "name": "Practice 2",
+      "startUtc": "2026-10-30T22:00:00Z",
+      "forecast": {
+        "time": "2026-10-30T22:00Z",
+        "temperature": 22.5,
+        "precipitationProbability": 14,
+        "weatherCode": 1,
+        "windSpeed": 5.4
+      }
+    },
+    {
+      "name": "Practice 3",
+      "startUtc": "2026-10-31T17:30:00Z",
+      "forecast": {
+        "time": "2026-10-31T17:00Z",
+        "temperature": 20.6,
+        "precipitationProbability": 0,
+        "weatherCode": 0,
+        "windSpeed": 1.7
+      }
+    },
+    {
+      "name": "Qualifying",
+      "startUtc": "2026-10-31T21:00:00Z",
+      "forecast": {
+        "time": "2026-10-31T21:00Z",
+        "temperature": 25.5,
+        "precipitationProbability": 0,
+        "weatherCode": 1,
+        "windSpeed": 5.2
+      }
+    },
+    {
+      "name": "Race",
+      "startUtc": "2026-11-01T20:00:00Z",
+      "forecast": {
+        "time": "2026-11-01T20:00Z",
+        "temperature": 23.6,
+        "precipitationProbability": 1,
+        "weatherCode": 0,
+        "windSpeed": 5.6
+      }
+    }
+  ]
+}

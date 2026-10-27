@@ -1,0 +1,38 @@
+{
+  "service": "ferrox-ferrari-remote-garage",
+  "version": "2.0.0-pages",
+  "startedAt": "2026-10-27T07:52:28.205Z",
+  "dataPolicy": "Live public APIs (OpenF1, Jolpica, Open-Meteo). Zero mock or synthetic data.",
+  "upstreams": [
+    {
+      "source": "OpenF1",
+      "baseUrl": "https://api.openf1.org/v1",
+      "networkRequests": 0,
+      "cacheHits": 0,
+      "staleServed": 0,
+      "failures": 0,
+      "lastError": null,
+      "lastSuccessAt": null
+    },
+    {
+      "source": "Jolpica-F1",
+      "baseUrl": "https://api.jolpi.ca/ergast/f1",
+      "networkRequests": 0,
+      "cacheHits": 0,
+      "staleServed": 0,
+      "failures": 0,
+      "lastError": null,
+      "lastSuccessAt": null
+    },
+    {
+      "source": "Open-Meteo",
+      "baseUrl": "https://api.open-meteo.com",
+      "networkRequests": 0,
+      "cacheHits": 0,
+      "staleServed": 0,
+      "failures": 0,
+      "lastError": null,
+      "lastSuccessAt": null
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferrox · Scuderia Ferrari Pit Wall Console · Real F1 session analytics</title>
+  <meta name="description" content="Pit wall engineering console for Scuderia Ferrari built on real public data: OpenF1 timing and car telemetry, Jolpica-F1 championship standings and Open-Meteo weather. No simulated data.">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Titillium+Web:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <div class="loader-bar" id="loader"></div>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"><span>SF</span></div>
+      <div>
+        <h1>Pit Wall <em>Console</em></h1>
+        <small>Ferrox · Scuderia Ferrari · real session data</small>
+      </div>
+    </div>
+    <div class="controls" role="group" aria-label="Session selection">
+      <select id="year-select" aria-label="Season"></select>
+      <select id="session-select" aria-label="Session"></select>
+      <button class="primary" id="load-btn">Load session</button>
+    </div>
+    <div class="sources" id="sources" aria-label="Upstream data sources"></div>
+  </header>
+
+  <main>
+    <div id="alerts"></div>
+
+    <section class="hero" aria-label="Session summary">
+      <article class="card session-card" id="session-card"><div class="skeleton"></div></article>
+      <div class="drivers" id="driver-cards"><article class="card skeleton"></article><article class="card skeleton"></article></div>
+    </section>
+
+    <section class="grid g-main">
+      <article class="card">
+        <h2><span>Race pace · lap times</span><span class="tag">OpenF1 /laps · SC/VSC, in/out laps flagged</span></h2>
+        <div id="lap-chart" class="skeleton"></div>
+        <div class="legend" id="lap-legend"></div>
+      </article>
+      <article class="card">
+        <h2><span>Tyre strategy</span><span class="tag">OpenF1 /stints · finishing order</span></h2>
+        <div id="strategy" class="strategy-wrap skeleton"></div>
+        <div class="legend">
+          <span><i class="c-SOFT"></i>Soft</span><span><i class="c-MEDIUM"></i>Medium</span><span><i class="c-HARD"></i>Hard</span>
+          <span><i class="c-INTERMEDIATE"></i>Inter</span><span><i class="c-WET"></i>Wet</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid g-2">
+      <article class="card">
+        <h2><span>Stint degradation model</span><span class="tag">OLS lap time vs tyre age · representative laps</span></h2>
+        <div id="stint-table" class="skeleton"></div>
+        <p class="muted" style="font-size:12px;margin-top:10px">Raw slope, not fuel-corrected: fuel burn-off makes the car faster each lap, so negative values are possible on low-degradation compounds.</p>
+      </article>
+      <article class="card">
+        <h2><span>Pit lane &amp; neutralisations</span><span class="tag">OpenF1 /pit · /race_control</span></h2>
+        <div id="pit-panel" class="skeleton"></div>
+      </article>
+    </section>
+
+    <section class="card" aria-label="Telemetry comparison">
+      <h2><span>Telemetry comparison · fastest laps</span><span class="tag">OpenF1 /car_data ~3.7 Hz · /location</span></h2>
+      <div class="telemetry-controls">
+        <label for="ref-driver">Reference</label><select id="ref-driver"></select>
+        <input type="number" id="ref-lap" min="1" max="200" placeholder="fastest" aria-label="Reference lap">
+        <span class="vs">VS</span>
+        <label for="cmp-driver">Compare</label><select id="cmp-driver"></select>
+        <input type="number" id="cmp-lap" min="1" max="200" placeholder="fastest" aria-label="Comparison lap">
+        <button class="primary" id="compare-btn">Compare laps</button>
+      </div>
+      <div class="grid g-main">
+        <div class="stack">
+          <div class="chart-title">Speed (km/h)</div><div id="tel-speed"></div>
+          <div class="chart-title">Throttle (%)</div><div id="tel-throttle"></div>
+          <div class="chart-title">Brake</div><div id="tel-brake"></div>
+          <div class="chart-title">Gear</div><div id="tel-gear"></div>
+          <div class="chart-title">DRS (Drag Reduction System) · flap open/closed</div><div id="tel-drs"></div>
+          <div class="chart-title">Delta time (s) · positive = comparison behind</div><div id="tel-delta"></div>
+        </div>
+        <div>
+          <div id="delta-head"></div>
+          <div id="tel-map" class="skeleton"></div>
+          <div class="legend" id="map-legend"></div>
+          <div id="tel-stats"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" aria-label="Lap replay">
+      <h2><span>Lap replay · server-sent events</span><span class="tag">real car_data samples streamed at recorded cadence</span></h2>
+      <div class="telemetry-controls">
+        <label for="replay-driver">Driver</label><select id="replay-driver"></select>
+        <input type="number" id="replay-lap" min="1" max="200" placeholder="fastest" aria-label="Replay lap">
+        <label for="replay-speed">Speed</label>
+        <select id="replay-speed"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select>
+        <button class="primary" id="replay-btn">Start replay</button>
+        <button class="ghost" id="replay-stop">Stop</button>
+        <span class="muted mono" id="replay-status"></span>
+      </div>
+      <div class="replay">
+        <div id="replay-map"></div>
+        <div>
+          <div class="gauges">
+            <div class="gauge"><label>Speed km/h</label><div class="big" id="g-speed">—</div></div>
+            <div class="gauge"><label>Gear</label><div class="big gear" id="g-gear">—</div></div>
+            <div class="gauge"><label>RPM</label><div class="big" id="g-rpm">—</div></div>
+            <div class="gauge"><label>DRS</label><div class="big" id="g-drs" style="font-size:26px;letter-spacing:1px;color:#888">—</div></div>
+            <div class="gauge" style="grid-column: span 2"><label>Lap time</label><div class="big" id="g-time">—</div></div>
+          </div>
+          <div class="gauge" style="margin-top:12px;text-align:left">
+            <label>Throttle</label><div class="pedal"><div class="thr" id="g-thr"></div></div>
+            <label style="display:block;margin-top:10px">Brake</label><div class="pedal"><div class="brk" id="g-brk"></div></div>
+          </div>
+          <div class="progress"><div id="g-progress"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid g-3">
+      <article class="card">
+        <h2><span>Race control</span><span class="tag">flags · SC · penalties · Ferrari</span></h2>
+        <div id="race-control" class="feed skeleton"></div>
+      </article>
+      <article class="card">
+        <h2><span>Team radio</span><span class="tag">official F1 live timing recordings</span></h2>
+        <div id="radio" class="feed skeleton"></div>
+      </article>
+      <article class="card">
+        <h2><span>Track weather</span><span class="tag">OpenF1 /weather · trackside station</span></h2>
+        <div id="weather-chart" class="skeleton"></div>
+        <div id="weather-kpis"></div>
+      </article>
+    </section>
+
+    <section class="grid g-2">
+      <article class="card">
+        <h2><span>Classification</span><span class="tag">OpenF1 /session_result</span></h2>
+        <div id="classification" class="skeleton"></div>
+      </article>
+      <article class="card">
+        <h2><span>Championship &amp; next weekend</span><span class="tag">Jolpica-F1 · Open-Meteo</span></h2>
+        <div id="championship" class="skeleton"></div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Data sources.</strong> Timing, telemetry, positions, team radio, race control and track weather:
+    <a href="https://openf1.org" rel="noopener">OpenF1</a> (free historical tier, published 30 minutes after each session).
+    Championship and calendar: <a href="https://github.com/jolpica/jolpica-f1" rel="noopener">Jolpica-F1</a>.
+    Weather forecast: <a href="https://open-meteo.com" rel="noopener">Open-Meteo</a> (CC BY 4.0).
+    Every number on this page comes from those APIs at request time (cached locally); nothing is simulated.<br>
+    Independent portfolio project. Not affiliated with, endorsed by or connected to Ferrari S.p.A., Scuderia Ferrari or Formula 1.
+  </footer>
+</body>
+</html>

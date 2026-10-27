@@ -1,0 +1,3427 @@
+{
+  "session": {
+    "sessionKey": 11396,
+    "meetingKey": 1297,
+    "name": "Race",
+    "type": "Race",
+    "circuit": "Austin",
+    "country": "United States",
+    "location": "Austin",
+    "dateStart": "2026-10-25T20:00:00+00:00",
+    "dateEnd": "2026-10-25T22:00:00+00:00",
+    "year": 2026,
+    "availability": "available"
+  },
+  "warnings": [],
+  "classification": [
+    {
+      "position": 1,
+      "status": "P1",
+      "driver": 12,
+      "acronym": "ANT",
+      "fullName": "Kimi ANTONELLI",
+      "team": "Mercedes",
+      "teamColour": "00D7B6",
+      "laps": 56,
+      "points": 25,
+      "gap": "Leader",
+      "ferrari": false
+    },
+    {
+      "position": 2,
+      "status": "P2",
+      "driver": 16,
+      "acronym": "LEC",
+      "fullName": "Charles LECLERC",
+      "team": "Ferrari",
+      "teamColour": "ED1131",
+      "laps": 56,
+      "points": 18,
+      "gap": "+13.078s",
+      "ferrari": true
+    },
+    {
+      "position": 3,
+      "status": "P3",
+      "driver": 3,
+      "acronym": "VER",
+      "fullName": "Max VERSTAPPEN",
+      "team": "Red Bull Racing",
+      "teamColour": "4781D7",
+      "laps": 56,
+      "points": 15,
+      "gap": "+17.485s",
+      "ferrari": false
+    },
+    {
+      "position": 4,
+      "status": "P4",
+      "driver": 44,
+      "acronym": "HAM",
+      "fullName": "Lewis HAMILTON",
+      "team": "Ferrari",
+      "teamColour": "ED1131",
+      "laps": 56,
+      "points": 12,
+      "gap": "+18.515s",
+      "ferrari": true
+    },
+    {
+      "position": 5,
+      "status": "P5",
+      "driver": 1,
+      "acronym": "NOR",
+      "fullName": "Lando NORRIS",
+      "team": "McLaren",
+      "teamColour": "F47600",
+      "laps": 56,
+      "points": 10,
+      "gap": "+30.521s",
+      "ferrari": false
+    },
+    {
+      "position": 6,
+      "status": "P6",
+      "driver": 6,
+      "acronym": "HAD",
+      "fullName": "Isack HADJAR",
+      "team": "Red Bull Racing",
+      "teamColour": "4781D7",
+      "laps": 56,
+      "points": 8,
+      "gap": "+34.373s",
+      "ferrari": false
+    },
+    {
+      "position": 7,
+      "status": "P7",
+      "driver": 81,
+      "acronym": "PIA",
+      "fullName": "Oscar PIASTRI",
+      "team": "McLaren",
+      "teamColour": "F47600",
+      "laps": 56,
+      "points": 6,
+      "gap": "+52.674s",
+      "ferrari": false
+    },
+    {
+      "position": 8,
+      "status": "P8",
+      "driver": 63,
+      "acronym": "RUS",
+      "fullName": "George RUSSELL",
+      "team": "Mercedes",
+      "teamColour": "00D7B6",
+      "laps": 56,
+      "points": 4,
+      "gap": "+54.303s",
+      "ferrari": false
+    },
+    {
+      "position": 9,
+      "status": "P9",
+      "driver": 30,
+      "acronym": "LAW",
+      "fullName": "Liam LAWSON",
+      "team": "Racing Bulls",
+      "teamColour": "6C98FF",
+      "laps": 56,
+      "points": 2,
+      "gap": "+79.183s",
+      "ferrari": false
+    },
+    {
+      "position": 10,
+      "status": "P10",
+      "driver": 10,
+      "acronym": "GAS",
+      "fullName": "Pierre GASLY",
+      "team": "Alpine",
+      "teamColour": "00A1E8",
+      "laps": 56,
+      "points": 1,
+      "gap": "+87.516s",
+      "ferrari": false
+    },
+    {
+      "position": 11,
+      "status": "P11",
+      "driver": 27,
+      "acronym": "HUL",
+      "fullName": "Nico HULKENBERG",
+      "team": "Audi",
+      "teamColour": "F50537",
+      "laps": 56,
+      "points": 0,
+      "gap": "+94.945s",
+      "ferrari": false
+    },
+    {
+      "position": 12,
+      "status": "P12",
+      "driver": 41,
+      "acronym": "LIN",
+      "fullName": "Arvid LINDBLAD",
+      "team": "Racing Bulls",
+      "teamColour": "6C98FF",
+      "laps": 55,
+      "points": 0,
+      "gap": "+1 LAP",
+      "ferrari": false
+    },
+    {
+      "position": 13,
+      "status": "P13",
+      "driver": 5,
+      "acronym": "BOR",
+      "fullName": "Gabriel BORTOLETO",
+      "team": "Audi",
+      "teamColour": "F50537",
+      "laps": 55,
+      "points": 0,
+      "gap": "+1 LAP",
+      "ferrari": false
+    },
+    {
+      "position": 14,
+      "status": "P14",
+      "driver": 31,
+      "acronym": "OCO",
+      "fullName": "Esteban OCON",
+      "team": "Haas F1 Team",
+      "teamColour": "9C9FA2",
+      "laps": 55,
+      "points": 0,
+      "gap": "+1 LAP",
+      "ferrari": false
+    },
+    {
+      "position": 15,
+      "status": "P15",
+      "driver": 18,
+      "acronym": "STR",
+      "fullName": "Lance STROLL",
+      "team": "Aston Martin",
+      "teamColour": "229971",
+      "laps": 55,
+      "points": 0,
+      "gap": "+1 LAP",
+      "ferrari": false
+    },
+    {
+      "position": 16,
+      "status": "P16",
+      "driver": 14,
+      "acronym": "ALO",
+      "fullName": "Fernando ALONSO",
+      "team": "Aston Martin",
+      "teamColour": "229971",
+      "laps": 55,
+      "points": 0,
+      "gap": "+1 LAP",
+      "ferrari": false
+    },
+    {
+      "position": 17,
+      "status": "P17",
+      "driver": 23,
+      "acronym": "ALB",
+      "fullName": "Alexander ALBON",
+      "team": "Williams",
+      "teamColour": "1868DB",
+      "laps": 55,
+      "points": 0,
+      "gap": "+1 LAP",
+      "ferrari": false
+    },
+    {
+      "position": 18,
+      "status": "P18",
+      "driver": 55,
+      "acronym": "SAI",
+      "fullName": "Carlos SAINZ",
+      "team": "Williams",
+      "teamColour": "1868DB",
+      "laps": 55,
+      "points": 0,
+      "gap": "+1 LAP",
+      "ferrari": false
+    },
+    {
+      "position": 19,
+      "status": "P19",
+      "driver": 11,
+      "acronym": "PER",
+      "fullName": "Sergio PEREZ",
+      "team": "Cadillac",
+      "teamColour": "909090",
+      "laps": 55,
+      "points": 0,
+      "gap": "+1 LAP",
+      "ferrari": false
+    },
+    {
+      "position": null,
+      "status": "DNF",
+      "driver": 77,
+      "acronym": "BOT",
+      "fullName": "Valtteri BOTTAS",
+      "team": "Cadillac",
+      "teamColour": "909090",
+      "laps": 48,
+      "points": 0,
+      "gap": "DNF",
+      "ferrari": false
+    },
+    {
+      "position": null,
+      "status": "DNF",
+      "driver": 43,
+      "acronym": "COL",
+      "fullName": "Franco COLAPINTO",
+      "team": "Alpine",
+      "teamColour": "00A1E8",
+      "laps": 35,
+      "points": 0,
+      "gap": "DNF",
+      "ferrari": false
+    },
+    {
+      "position": null,
+      "status": "DNF",
+      "driver": 87,
+      "acronym": "BEA",
+      "fullName": "Oliver BEARMAN",
+      "team": "Haas F1 Team",
+      "teamColour": "9C9FA2",
+      "laps": 24,
+      "points": 0,
+      "gap": "DNF",
+      "ferrari": false
+    }
+  ],
+  "fastestLap": {
+    "driver": 16,
+    "lap": 42,
+    "time": 97.976
+  },
+  "ferrari": [
+    {
+      "driver": {
+        "number": 16,
+        "acronym": "LEC",
+        "fullName": "Charles LECLERC",
+        "team": "Ferrari",
+        "teamColour": "ED1131",
+        "headshotUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png.transform/1col/image.png"
+      },
+      "result": {
+        "position": 2,
+        "status": "P2",
+        "driver": 16,
+        "acronym": "LEC",
+        "fullName": "Charles LECLERC",
+        "team": "Ferrari",
+        "teamColour": "ED1131",
+        "laps": 56,
+        "points": 18,
+        "gap": "+13.078s",
+        "ferrari": true
+      },
+      "laps": {
+        "driver": 16,
+        "lapsCompleted": 56,
+        "representativeLaps": 47,
+        "bestLap": {
+          "lap": 42,
+          "time": 97.976
+        },
+        "medianPace": 100.391,
+        "consistency": 1.0245833480018969,
+        "bestSectors": [
+          26.132,
+          38.906,
+          32.781
+        ],
+        "theoreticalBest": 97.81899999999999,
+        "topSpeedTrap": 342
+      },
+      "stints": [
+        {
+          "driver": 16,
+          "stint": 1,
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 15,
+          "length": 15,
+          "tyreAgeAtStart": 0,
+          "sampleLaps": 12,
+          "averagePace": 101.14574999999998,
+          "bestLap": 100.757,
+          "degradationPerLap": 0.06630419580419554,
+          "fitR2": 0.6370414423063364
+        },
+        {
+          "driver": 16,
+          "stint": 2,
+          "compound": "MEDIUM",
+          "lapStart": 16,
+          "lapEnd": 39,
+          "length": 24,
+          "tyreAgeAtStart": 0,
+          "sampleLaps": 22,
+          "averagePace": 100.40713636363635,
+          "bestLap": 99.687,
+          "degradationPerLap": 0.02408187464709232,
+          "fitR2": 0.1289027496625449
+        },
+        {
+          "driver": 16,
+          "stint": 3,
+          "compound": "HARD",
+          "lapStart": 40,
+          "lapEnd": 56,
+          "length": 17,
+          "tyreAgeAtStart": 0,
+          "sampleLaps": 13,
+          "averagePace": 98.79015384615384,
+          "bestLap": 97.976,
+          "degradationPerLap": 0.02390488702049414,
+          "fitR2": 0.0282286336580347
+        }
+      ],
+      "pitStops": [
+        {
+          "driver": 16,
+          "lap": 15,
+          "date": "2026-10-25T20:29:40.350000+00:00",
+          "laneDuration": 24,
+          "stopDuration": null
+        },
+        {
+          "driver": 16,
+          "lap": 39,
+          "date": "2026-10-25T21:10:10.976000+00:00",
+          "laneDuration": 24.2,
+          "stopDuration": null
+        }
+      ],
+      "radio": [
+        {
+          "date": "2026-10-25T21:41:20.491000+00:00",
+          "driver": 16,
+          "recordingUrl": "https://livetiming.formula1.com/static/2026/2026-10-25_United_States_Grand_Prix/2026-10-25_Race/TeamRadio/LEC_16_20261025_164055.mp3"
+        }
+      ]
+    },
+    {
+      "driver": {
+        "number": 44,
+        "acronym": "HAM",
+        "fullName": "Lewis HAMILTON",
+        "team": "Ferrari",
+        "teamColour": "ED1131",
+        "headshotUrl": "https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png.transform/1col/image.png"
+      },
+      "result": {
+        "position": 4,
+        "status": "P4",
+        "driver": 44,
+        "acronym": "HAM",
+        "fullName": "Lewis HAMILTON",
+        "team": "Ferrari",
+        "teamColour": "ED1131",
+        "laps": 56,
+        "points": 12,
+        "gap": "+18.515s",
+        "ferrari": true
+      },
+      "laps": {
+        "driver": 44,
+        "lapsCompleted": 56,
+        "representativeLaps": 47,
+        "bestLap": {
+          "lap": 48,
+          "time": 98.457
+        },
+        "medianPace": 100.539,
+        "consistency": 1.004155554858597,
+        "bestSectors": [
+          25.885,
+          38.952,
+          33.107
+        ],
+        "theoreticalBest": 97.944,
+        "topSpeedTrap": 343
+      },
+      "stints": [
+        {
+          "driver": 44,
+          "stint": 1,
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 14,
+          "length": 14,
+          "tyreAgeAtStart": 2,
+          "sampleLaps": 11,
+          "averagePace": 101.35418181818181,
+          "bestLap": 101.014,
+          "degradationPerLap": 0.057918181818182805,
+          "fitR2": 0.7939996064199808
+        },
+        {
+          "driver": 44,
+          "stint": 2,
+          "compound": "MEDIUM",
+          "lapStart": 15,
+          "lapEnd": 38,
+          "length": 24,
+          "tyreAgeAtStart": 0,
+          "sampleLaps": 22,
+          "averagePace": 100.5708181818182,
+          "bestLap": 100.148,
+          "degradationPerLap": 0.004059853190287924,
+          "fitR2": 0.011888637442485393
+        },
+        {
+          "driver": 44,
+          "stint": 3,
+          "compound": "HARD",
+          "lapStart": 39,
+          "lapEnd": 56,
+          "length": 18,
+          "tyreAgeAtStart": 0,
+          "sampleLaps": 14,
+          "averagePace": 98.84714285714286,
+          "bestLap": 98.457,
+          "degradationPerLap": -0.03662284305669669,
+          "fitR2": 0.31792179395482556
+        }
+      ],
+      "pitStops": [
+        {
+          "driver": 44,
+          "lap": 14,
+          "date": "2026-10-25T20:28:02.922000+00:00",
+          "laneDuration": 24.1,
+          "stopDuration": null
+        },
+        {
+          "driver": 44,
+          "lap": 38,
+          "date": "2026-10-25T21:08:37.850000+00:00",
+          "laneDuration": 23.9,
+          "stopDuration": null
+        }
+      ],
+      "radio": [
+        {
+          "date": "2026-10-25T20:23:36.322000+00:00",
+          "driver": 44,
+          "recordingUrl": "https://livetiming.formula1.com/static/2026/2026-10-25_United_States_Grand_Prix/2026-10-25_Race/TeamRadio/HAM_44_20261025_152309.mp3"
+        },
+        {
+          "date": "2026-10-25T20:28:41.959000+00:00",
+          "driver": 44,
+          "recordingUrl": "https://livetiming.formula1.com/static/2026/2026-10-25_United_States_Grand_Prix/2026-10-25_Race/TeamRadio/HAM_44_20261025_152820.mp3"
+        },
+        {
+          "date": "2026-10-25T21:20:31.611000+00:00",
+          "driver": 44,
+          "recordingUrl": "https://livetiming.formula1.com/static/2026/2026-10-25_United_States_Grand_Prix/2026-10-25_Race/TeamRadio/HAM_44_20261025_162016.mp3"
+        }
+      ]
+    }
+  ],
+  "lapChart": [
+    {
+      "driver": 16,
+      "acronym": "LEC",
+      "colour": "ED1131",
+      "ferrari": true,
+      "laps": [
+        {
+          "lap": 1,
+          "time": 103.194,
+          "classification": "opening",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 2,
+          "time": 108.941,
+          "classification": "slow",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 3,
+          "time": 100.831,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 4,
+          "time": 100.837,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 5,
+          "time": 100.801,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 6,
+          "time": 100.757,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 7,
+          "time": 101.494,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 8,
+          "time": 101.207,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 9,
+          "time": 101.125,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 10,
+          "time": 101.027,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 11,
+          "time": 101.324,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 12,
+          "time": 101.26,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 13,
+          "time": 101.437,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 14,
+          "time": 101.649,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 15,
+          "time": 101.686,
+          "classification": "pit-in",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 16,
+          "time": 120.887,
+          "classification": "pit-out",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 17,
+          "time": 100.356,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 18,
+          "time": 99.753,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 19,
+          "time": 99.687,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 20,
+          "time": 100.187,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 21,
+          "time": 100.178,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 22,
+          "time": 99.923,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 23,
+          "time": 100.205,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 24,
+          "time": 100.2,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 25,
+          "time": 101.361,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 26,
+          "time": 101.346,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 27,
+          "time": 100.389,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 28,
+          "time": 100.401,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 29,
+          "time": 100.598,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 30,
+          "time": 100.122,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 31,
+          "time": 100.391,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 32,
+          "time": 101.22,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 33,
+          "time": 100.46,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 34,
+          "time": 100.444,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 35,
+          "time": 100.391,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 36,
+          "time": 100.503,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 37,
+          "time": 100.296,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 38,
+          "time": 100.546,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 39,
+          "time": 100.664,
+          "classification": "pit-in",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 40,
+          "time": 119.656,
+          "classification": "pit-out",
+          "compound": "HARD"
+        },
+        {
+          "lap": 41,
+          "time": 98.329,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 42,
+          "time": 97.976,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 43,
+          "time": 98.208,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 44,
+          "time": 98.277,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 45,
+          "time": 98.604,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 46,
+          "time": 99.709,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 47,
+          "time": 100.5,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 48,
+          "time": 99.186,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 49,
+          "time": 98.799,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 50,
+          "time": 98.714,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 51,
+          "time": 109.632,
+          "classification": "slow",
+          "compound": "HARD"
+        },
+        {
+          "lap": 52,
+          "time": 136.88,
+          "classification": "slow",
+          "compound": "HARD"
+        },
+        {
+          "lap": 53,
+          "time": 121.598,
+          "classification": "slow",
+          "compound": "HARD"
+        },
+        {
+          "lap": 54,
+          "time": 98.463,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 55,
+          "time": 99.186,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 56,
+          "time": 98.321,
+          "classification": "representative",
+          "compound": "HARD"
+        }
+      ]
+    },
+    {
+      "driver": 44,
+      "acronym": "HAM",
+      "colour": "ED1131",
+      "ferrari": true,
+      "laps": [
+        {
+          "lap": 1,
+          "time": 103.692,
+          "classification": "opening",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 2,
+          "time": 109.467,
+          "classification": "slow",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 3,
+          "time": 101.014,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 4,
+          "time": 101.157,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 5,
+          "time": 101.148,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 6,
+          "time": 101.152,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 7,
+          "time": 101.392,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 8,
+          "time": 101.331,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 9,
+          "time": 101.556,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 10,
+          "time": 101.509,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 11,
+          "time": 101.59,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 12,
+          "time": 101.37,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 13,
+          "time": 101.677,
+          "classification": "representative",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 14,
+          "time": 102.133,
+          "classification": "pit-in",
+          "compound": "SOFT"
+        },
+        {
+          "lap": 15,
+          "time": 120.726,
+          "classification": "pit-out",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 16,
+          "time": 101.009,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 17,
+          "time": 100.594,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 18,
+          "time": 100.347,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 19,
+          "time": 100.245,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 20,
+          "time": 100.471,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 21,
+          "time": 100.281,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 22,
+          "time": 100.827,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 23,
+          "time": 100.301,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 24,
+          "time": 100.411,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 25,
+          "time": 100.649,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 26,
+          "time": 100.642,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 27,
+          "time": 100.745,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 28,
+          "time": 100.694,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 29,
+          "time": 100.684,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 30,
+          "time": 100.401,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 31,
+          "time": 100.853,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 32,
+          "time": 100.627,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 33,
+          "time": 100.661,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 34,
+          "time": 100.39,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 35,
+          "time": 100.148,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 36,
+          "time": 100.539,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 37,
+          "time": 101.039,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 38,
+          "time": 101.699,
+          "classification": "pit-in",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 39,
+          "time": 119.972,
+          "classification": "pit-out",
+          "compound": "HARD"
+        },
+        {
+          "lap": 40,
+          "time": 99,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 41,
+          "time": 99.558,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 42,
+          "time": 98.508,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 43,
+          "time": 99.38,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 44,
+          "time": 98.978,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 45,
+          "time": 98.9,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 46,
+          "time": 98.761,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 47,
+          "time": 98.721,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 48,
+          "time": 98.457,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 49,
+          "time": 98.756,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 50,
+          "time": 99.147,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 51,
+          "time": 109.562,
+          "classification": "slow",
+          "compound": "HARD"
+        },
+        {
+          "lap": 52,
+          "time": 138.25,
+          "classification": "slow",
+          "compound": "HARD"
+        },
+        {
+          "lap": 53,
+          "time": 118.733,
+          "classification": "slow",
+          "compound": "HARD"
+        },
+        {
+          "lap": 54,
+          "time": 98.629,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 55,
+          "time": 98.535,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 56,
+          "time": 98.53,
+          "classification": "representative",
+          "compound": "HARD"
+        }
+      ]
+    },
+    {
+      "driver": 12,
+      "acronym": "ANT",
+      "colour": "00D7B6",
+      "ferrari": false,
+      "laps": [
+        {
+          "lap": 1,
+          "time": 100.364,
+          "classification": "opening",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 2,
+          "time": 108.43,
+          "classification": "slow",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 3,
+          "time": 100.705,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 4,
+          "time": 100.33,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 5,
+          "time": 100.921,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 6,
+          "time": 101.113,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 7,
+          "time": 100.965,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 8,
+          "time": 100.839,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 9,
+          "time": 100.83,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 10,
+          "time": 101.024,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 11,
+          "time": 101.396,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 12,
+          "time": 101.234,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 13,
+          "time": 101.697,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 14,
+          "time": 101.614,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 15,
+          "time": 101.468,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 16,
+          "time": 101.432,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 17,
+          "time": 101.269,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 18,
+          "time": 101.289,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 19,
+          "time": 101.402,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 20,
+          "time": 101.23,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 21,
+          "time": 101.043,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 22,
+          "time": 101.149,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 23,
+          "time": 101.06,
+          "classification": "representative",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 24,
+          "time": 101.455,
+          "classification": "pit-in",
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 25,
+          "time": 120.429,
+          "classification": "pit-out",
+          "compound": "HARD"
+        },
+        {
+          "lap": 26,
+          "time": 99.763,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 27,
+          "time": 99.823,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 28,
+          "time": 100.01,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 29,
+          "time": 99.822,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 30,
+          "time": 100.46,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 31,
+          "time": 99.858,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 32,
+          "time": 99.796,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 33,
+          "time": 99.936,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 34,
+          "time": 99.86,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 35,
+          "time": 100.062,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 36,
+          "time": 99.897,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 37,
+          "time": 99.919,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 38,
+          "time": 99.776,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 39,
+          "time": 99.747,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 40,
+          "time": 99.84,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 41,
+          "time": 99.819,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 42,
+          "time": 99.804,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 43,
+          "time": 99.796,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 44,
+          "time": 99.529,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 45,
+          "time": 99.569,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 46,
+          "time": 100.06,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 47,
+          "time": 100.038,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 48,
+          "time": 99.767,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 49,
+          "time": 99.188,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 50,
+          "time": 99.642,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 51,
+          "time": 102.084,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 52,
+          "time": 137.954,
+          "classification": "slow",
+          "compound": "HARD"
+        },
+        {
+          "lap": 53,
+          "time": 127.721,
+          "classification": "slow",
+          "compound": "HARD"
+        },
+        {
+          "lap": 54,
+          "time": 99.233,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 55,
+          "time": 99.086,
+          "classification": "representative",
+          "compound": "HARD"
+        },
+        {
+          "lap": 56,
+          "time": 100.566,
+          "classification": "representative",
+          "compound": "HARD"
+        }
+      ]
+    }
+  ],
+  "strategy": [
+    {
+      "driver": 12,
+      "acronym": "ANT",
+      "colour": "00D7B6",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 24,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 25,
+          "lapEnd": 56,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 16,
+      "acronym": "LEC",
+      "colour": "ED1131",
+      "ferrari": true,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 15,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "MEDIUM",
+          "lapStart": 16,
+          "lapEnd": 39,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 40,
+          "lapEnd": 56,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 3,
+      "acronym": "VER",
+      "colour": "4781D7",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 13,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "SOFT",
+          "lapStart": 14,
+          "lapEnd": 31,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "MEDIUM",
+          "lapStart": 32,
+          "lapEnd": 56,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 44,
+      "acronym": "HAM",
+      "colour": "ED1131",
+      "ferrari": true,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 14,
+          "tyreAgeAtStart": 2
+        },
+        {
+          "compound": "MEDIUM",
+          "lapStart": 15,
+          "lapEnd": 38,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 39,
+          "lapEnd": 56,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 1,
+      "acronym": "NOR",
+      "colour": "F47600",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 16,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 17,
+          "lapEnd": 56,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 6,
+      "acronym": "HAD",
+      "colour": "4781D7",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 25,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 26,
+          "lapEnd": 56,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 81,
+      "acronym": "PIA",
+      "colour": "F47600",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 15,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 16,
+          "lapEnd": 56,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 63,
+      "acronym": "RUS",
+      "colour": "00D7B6",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 22,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 23,
+          "lapEnd": 56,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 30,
+      "acronym": "LAW",
+      "colour": "6C98FF",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 25,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 26,
+          "lapEnd": 56,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 10,
+      "acronym": "GAS",
+      "colour": "00A1E8",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 24,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 25,
+          "lapEnd": 56,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 27,
+      "acronym": "HUL",
+      "colour": "F50537",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 29,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 30,
+          "lapEnd": 56,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 41,
+      "acronym": "LIN",
+      "colour": "6C98FF",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 18,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "MEDIUM",
+          "lapStart": 19,
+          "lapEnd": 40,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "SOFT",
+          "lapStart": 41,
+          "lapEnd": 55,
+          "tyreAgeAtStart": 3
+        }
+      ]
+    },
+    {
+      "driver": 5,
+      "acronym": "BOR",
+      "colour": "F50537",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 26,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 27,
+          "lapEnd": 50,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "SOFT",
+          "lapStart": 51,
+          "lapEnd": 55,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 31,
+      "acronym": "OCO",
+      "colour": "9C9FA2",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 21,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 22,
+          "lapEnd": 55,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 18,
+      "acronym": "STR",
+      "colour": "229971",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 1,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "SOFT",
+          "lapStart": 2,
+          "lapEnd": 41,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "SOFT",
+          "lapStart": 42,
+          "lapEnd": 55,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 14,
+      "acronym": "ALO",
+      "colour": "229971",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 28,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "MEDIUM",
+          "lapStart": 29,
+          "lapEnd": 42,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "SOFT",
+          "lapStart": 43,
+          "lapEnd": 55,
+          "tyreAgeAtStart": 3
+        }
+      ]
+    },
+    {
+      "driver": 23,
+      "acronym": "ALB",
+      "colour": "1868DB",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 16,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "SOFT",
+          "lapStart": 17,
+          "lapEnd": 31,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 32,
+          "lapEnd": 55,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 55,
+      "acronym": "SAI",
+      "colour": "1868DB",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 17,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 18,
+          "lapEnd": 38,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "SOFT",
+          "lapStart": 39,
+          "lapEnd": 55,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 11,
+      "acronym": "PER",
+      "colour": "909090",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 23,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 24,
+          "lapEnd": 55,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 77,
+      "acronym": "BOT",
+      "colour": "909090",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "HARD",
+          "lapStart": 1,
+          "lapEnd": 29,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "SOFT",
+          "lapStart": 30,
+          "lapEnd": 48,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 43,
+      "acronym": "COL",
+      "colour": "00A1E8",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "HARD",
+          "lapStart": 1,
+          "lapEnd": 30,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "SOFT",
+          "lapStart": 31,
+          "lapEnd": 35,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    },
+    {
+      "driver": 87,
+      "acronym": "BEA",
+      "colour": "9C9FA2",
+      "ferrari": false,
+      "stints": [
+        {
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 13,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "HARD",
+          "lapStart": 14,
+          "lapEnd": 22,
+          "tyreAgeAtStart": 0
+        },
+        {
+          "compound": "MEDIUM",
+          "lapStart": 23,
+          "lapEnd": 24,
+          "tyreAgeAtStart": 0
+        }
+      ]
+    }
+  ],
+  "pitLane": {
+    "stops": 32,
+    "medianLaneTime": 24.2,
+    "fastestLaneTime": {
+      "driver": 81,
+      "lap": 15,
+      "time": 23.4
+    }
+  },
+  "weather": {
+    "summary": {
+      "samples": 40,
+      "airTemperature": {
+        "min": 26.6,
+        "max": 27,
+        "avg": 26.8
+      },
+      "trackTemperature": {
+        "min": 36.7,
+        "max": 39.3,
+        "avg": 38.1
+      },
+      "humidityMax": 45.8,
+      "rainDetected": false,
+      "latest": {
+        "date": "2026-10-25T19:46:33.452000+00:00",
+        "airTemperature": 26.7,
+        "trackTemperature": 37.8,
+        "humidity": 44,
+        "pressure": 1004.7,
+        "rainfall": 0,
+        "windSpeed": 1.2,
+        "windDirection": 130
+      }
+    },
+    "timeline": [
+      {
+        "date": "2026-10-25T19:07:33.360000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 38.3,
+        "humidity": 42.3,
+        "pressure": 1005.3,
+        "rainfall": 0,
+        "windSpeed": 3.1,
+        "windDirection": 115
+      },
+      {
+        "date": "2026-10-25T19:08:33.391000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 38.6,
+        "humidity": 42.6,
+        "pressure": 1005.3,
+        "rainfall": 0,
+        "windSpeed": 3.6,
+        "windDirection": 118
+      },
+      {
+        "date": "2026-10-25T19:09:33.376000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 38.5,
+        "humidity": 42.4,
+        "pressure": 1005.3,
+        "rainfall": 0,
+        "windSpeed": 3,
+        "windDirection": 108
+      },
+      {
+        "date": "2026-10-25T19:10:33.381000+00:00",
+        "airTemperature": 26.7,
+        "trackTemperature": 39,
+        "humidity": 43.3,
+        "pressure": 1005.2,
+        "rainfall": 0,
+        "windSpeed": 1,
+        "windDirection": 117
+      },
+      {
+        "date": "2026-10-25T19:11:33.381000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 39.3,
+        "humidity": 43.6,
+        "pressure": 1005.2,
+        "rainfall": 0,
+        "windSpeed": 1.3,
+        "windDirection": 134
+      },
+      {
+        "date": "2026-10-25T19:12:33.385000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 39,
+        "humidity": 42.9,
+        "pressure": 1005.3,
+        "rainfall": 0,
+        "windSpeed": 1.9,
+        "windDirection": 90
+      },
+      {
+        "date": "2026-10-25T19:13:33.399000+00:00",
+        "airTemperature": 27,
+        "trackTemperature": 39,
+        "humidity": 43,
+        "pressure": 1005.2,
+        "rainfall": 0,
+        "windSpeed": 3,
+        "windDirection": 120
+      },
+      {
+        "date": "2026-10-25T19:14:33.399000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 38.8,
+        "humidity": 43.7,
+        "pressure": 1005.1,
+        "rainfall": 0,
+        "windSpeed": 1.8,
+        "windDirection": 111
+      },
+      {
+        "date": "2026-10-25T19:15:33.428000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 38.7,
+        "humidity": 44.9,
+        "pressure": 1005.2,
+        "rainfall": 0,
+        "windSpeed": 1.2,
+        "windDirection": 102
+      },
+      {
+        "date": "2026-10-25T19:16:33.420000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 38.8,
+        "humidity": 44.8,
+        "pressure": 1005.2,
+        "rainfall": 0,
+        "windSpeed": 1.2,
+        "windDirection": 98
+      },
+      {
+        "date": "2026-10-25T19:17:33.420000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 39,
+        "humidity": 44.5,
+        "pressure": 1005.2,
+        "rainfall": 0,
+        "windSpeed": 1.5,
+        "windDirection": 125
+      },
+      {
+        "date": "2026-10-25T19:18:33.425000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 38.9,
+        "humidity": 44.4,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 2,
+        "windDirection": 155
+      },
+      {
+        "date": "2026-10-25T19:19:33.425000+00:00",
+        "airTemperature": 26.7,
+        "trackTemperature": 39,
+        "humidity": 44.7,
+        "pressure": 1005.1,
+        "rainfall": 0,
+        "windSpeed": 1.1,
+        "windDirection": 149
+      },
+      {
+        "date": "2026-10-25T19:20:33.428000+00:00",
+        "airTemperature": 26.7,
+        "trackTemperature": 38.6,
+        "humidity": 44.6,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 2.1,
+        "windDirection": 160
+      },
+      {
+        "date": "2026-10-25T19:21:33.426000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 38.2,
+        "humidity": 44,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 2.5,
+        "windDirection": 164
+      },
+      {
+        "date": "2026-10-25T19:22:33.429000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 38.5,
+        "humidity": 44.3,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 3.4,
+        "windDirection": 122
+      },
+      {
+        "date": "2026-10-25T19:23:33.433000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 38.3,
+        "humidity": 44.2,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 2.5,
+        "windDirection": 115
+      },
+      {
+        "date": "2026-10-25T19:24:33.434000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 38.1,
+        "humidity": 44.5,
+        "pressure": 1005.1,
+        "rainfall": 0,
+        "windSpeed": 2.9,
+        "windDirection": 129
+      },
+      {
+        "date": "2026-10-25T19:25:33.419000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 38.2,
+        "humidity": 44.6,
+        "pressure": 1005.1,
+        "rainfall": 0,
+        "windSpeed": 2.3,
+        "windDirection": 127
+      },
+      {
+        "date": "2026-10-25T19:26:33.436000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 38.1,
+        "humidity": 44.2,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 1.7,
+        "windDirection": 114
+      },
+      {
+        "date": "2026-10-25T19:27:33.428000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 38.1,
+        "humidity": 44.3,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 1.5,
+        "windDirection": 132
+      },
+      {
+        "date": "2026-10-25T19:28:33.430000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 37.3,
+        "humidity": 44.8,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 2.1,
+        "windDirection": 152
+      },
+      {
+        "date": "2026-10-25T19:29:33.435000+00:00",
+        "airTemperature": 26.7,
+        "trackTemperature": 37.3,
+        "humidity": 45.5,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 2.3,
+        "windDirection": 165
+      },
+      {
+        "date": "2026-10-25T19:30:33.427000+00:00",
+        "airTemperature": 26.7,
+        "trackTemperature": 37.5,
+        "humidity": 45.1,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 2.7,
+        "windDirection": 116
+      },
+      {
+        "date": "2026-10-25T19:31:33.428000+00:00",
+        "airTemperature": 26.6,
+        "trackTemperature": 37.6,
+        "humidity": 45.6,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 1.1,
+        "windDirection": 145
+      },
+      {
+        "date": "2026-10-25T19:32:33.436000+00:00",
+        "airTemperature": 26.7,
+        "trackTemperature": 38,
+        "humidity": 45.4,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 2.2,
+        "windDirection": 138
+      },
+      {
+        "date": "2026-10-25T19:33:33.428000+00:00",
+        "airTemperature": 26.7,
+        "trackTemperature": 37.6,
+        "humidity": 45.3,
+        "pressure": 1005,
+        "rainfall": 0,
+        "windSpeed": 1.2,
+        "windDirection": 134
+      },
+      {
+        "date": "2026-10-25T19:34:33.437000+00:00",
+        "airTemperature": 26.7,
+        "trackTemperature": 37.6,
+        "humidity": 45.8,
+        "pressure": 1004.9,
+        "rainfall": 0,
+        "windSpeed": 2.6,
+        "windDirection": 135
+      },
+      {
+        "date": "2026-10-25T19:35:33.435000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 37.3,
+        "humidity": 45.6,
+        "pressure": 1004.8,
+        "rainfall": 0,
+        "windSpeed": 2.9,
+        "windDirection": 153
+      },
+      {
+        "date": "2026-10-25T19:36:33.441000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 37.7,
+        "humidity": 45.2,
+        "pressure": 1004.8,
+        "rainfall": 0,
+        "windSpeed": 2.9,
+        "windDirection": 150
+      },
+      {
+        "date": "2026-10-25T19:37:33.439000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 38,
+        "humidity": 45.1,
+        "pressure": 1004.8,
+        "rainfall": 0,
+        "windSpeed": 2.4,
+        "windDirection": 128
+      },
+      {
+        "date": "2026-10-25T19:38:33.439000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 37.7,
+        "humidity": 44.4,
+        "pressure": 1004.7,
+        "rainfall": 0,
+        "windSpeed": 3.8,
+        "windDirection": 124
+      },
+      {
+        "date": "2026-10-25T19:39:33.432000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 37.2,
+        "humidity": 44.7,
+        "pressure": 1004.7,
+        "rainfall": 0,
+        "windSpeed": 3,
+        "windDirection": 142
+      },
+      {
+        "date": "2026-10-25T19:40:33.440000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 36.8,
+        "humidity": 45.3,
+        "pressure": 1004.8,
+        "rainfall": 0,
+        "windSpeed": 3.9,
+        "windDirection": 147
+      },
+      {
+        "date": "2026-10-25T19:41:33.441000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 36.7,
+        "humidity": 45.3,
+        "pressure": 1004.8,
+        "rainfall": 0,
+        "windSpeed": 3.3,
+        "windDirection": 130
+      },
+      {
+        "date": "2026-10-25T19:42:33.441000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 37,
+        "humidity": 45.4,
+        "pressure": 1004.8,
+        "rainfall": 0,
+        "windSpeed": 2.6,
+        "windDirection": 152
+      },
+      {
+        "date": "2026-10-25T19:43:33.442000+00:00",
+        "airTemperature": 26.9,
+        "trackTemperature": 37.5,
+        "humidity": 45.2,
+        "pressure": 1004.8,
+        "rainfall": 0,
+        "windSpeed": 3.3,
+        "windDirection": 148
+      },
+      {
+        "date": "2026-10-25T19:44:33.442000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 38,
+        "humidity": 44.6,
+        "pressure": 1004.8,
+        "rainfall": 0,
+        "windSpeed": 3.2,
+        "windDirection": 143
+      },
+      {
+        "date": "2026-10-25T19:45:33.465000+00:00",
+        "airTemperature": 26.8,
+        "trackTemperature": 37.7,
+        "humidity": 43.5,
+        "pressure": 1004.8,
+        "rainfall": 0,
+        "windSpeed": 2.7,
+        "windDirection": 141
+      },
+      {
+        "date": "2026-10-25T19:46:33.452000+00:00",
+        "airTemperature": 26.7,
+        "trackTemperature": 37.8,
+        "humidity": 44,
+        "pressure": 1004.7,
+        "rainfall": 0,
+        "windSpeed": 1.2,
+        "windDirection": 130
+      }
+    ]
+  },
+  "raceControl": [
+    {
+      "date": "2026-10-25T19:20:01+00:00",
+      "lap": 1,
+      "category": "Flag",
+      "flag": "GREEN",
+      "scope": "Track",
+      "driver": null,
+      "message": "GREEN LIGHT - PIT EXIT OPEN"
+    },
+    {
+      "date": "2026-10-25T19:32:11+00:00",
+      "lap": 1,
+      "category": "Flag",
+      "flag": "DOUBLE YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "DOUBLE YELLOW IN TRACK SECTOR 13"
+    },
+    {
+      "date": "2026-10-25T19:32:11+00:00",
+      "lap": 1,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 12"
+    },
+    {
+      "date": "2026-10-25T19:32:20+00:00",
+      "lap": 1,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 13"
+    },
+    {
+      "date": "2026-10-25T19:32:20+00:00",
+      "lap": 1,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 12"
+    },
+    {
+      "date": "2026-10-25T20:04:42+00:00",
+      "lap": 1,
+      "category": "Flag",
+      "flag": "DOUBLE YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "DOUBLE YELLOW IN TRACK SECTOR 2"
+    },
+    {
+      "date": "2026-10-25T20:04:42+00:00",
+      "lap": 1,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 1"
+    },
+    {
+      "date": "2026-10-25T20:04:53+00:00",
+      "lap": 1,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 2"
+    },
+    {
+      "date": "2026-10-25T20:04:53+00:00",
+      "lap": 1,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 1"
+    },
+    {
+      "date": "2026-10-25T20:05:43+00:00",
+      "lap": 2,
+      "category": "Flag",
+      "flag": "DOUBLE YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "DOUBLE YELLOW IN TRACK SECTOR 10"
+    },
+    {
+      "date": "2026-10-25T20:05:43+00:00",
+      "lap": 2,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 9"
+    },
+    {
+      "date": "2026-10-25T20:06:06+00:00",
+      "lap": 2,
+      "category": "SafetyCar",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "VSC DEPLOYED"
+    },
+    {
+      "date": "2026-10-25T20:06:06+00:00",
+      "lap": 2,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 12"
+    },
+    {
+      "date": "2026-10-25T20:06:11+00:00",
+      "lap": 2,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 10"
+    },
+    {
+      "date": "2026-10-25T20:06:11+00:00",
+      "lap": 2,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 9"
+    },
+    {
+      "date": "2026-10-25T20:06:20+00:00",
+      "lap": 2,
+      "category": "SafetyCar",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "VSC ENDING"
+    },
+    {
+      "date": "2026-10-25T20:06:30+00:00",
+      "lap": 2,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Track",
+      "driver": null,
+      "message": "TRACK CLEAR"
+    },
+    {
+      "date": "2026-10-25T20:06:54+00:00",
+      "lap": 2,
+      "category": "Flag",
+      "flag": "DOUBLE YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "DOUBLE YELLOW IN TRACK SECTOR 10"
+    },
+    {
+      "date": "2026-10-25T20:06:54+00:00",
+      "lap": 2,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 9"
+    },
+    {
+      "date": "2026-10-25T20:07:27+00:00",
+      "lap": 3,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 10"
+    },
+    {
+      "date": "2026-10-25T20:07:27+00:00",
+      "lap": 3,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 9"
+    },
+    {
+      "date": "2026-10-25T20:08:47+00:00",
+      "lap": 3,
+      "category": "Flag",
+      "flag": "DOUBLE YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "DOUBLE YELLOW IN TRACK SECTOR 12"
+    },
+    {
+      "date": "2026-10-25T20:08:47+00:00",
+      "lap": 3,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 11"
+    },
+    {
+      "date": "2026-10-25T20:08:48+00:00",
+      "lap": 3,
+      "category": "Flag",
+      "flag": "DOUBLE YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "DOUBLE YELLOW IN TRACK SECTOR 10"
+    },
+    {
+      "date": "2026-10-25T20:08:48+00:00",
+      "lap": 3,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 9"
+    },
+    {
+      "date": "2026-10-25T20:08:53+00:00",
+      "lap": 3,
+      "category": "Flag",
+      "flag": "DOUBLE YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "DOUBLE YELLOW IN TRACK SECTOR 11"
+    },
+    {
+      "date": "2026-10-25T20:08:59+00:00",
+      "lap": 4,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 10"
+    },
+    {
+      "date": "2026-10-25T20:08:59+00:00",
+      "lap": 4,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 9"
+    },
+    {
+      "date": "2026-10-25T20:09:02+00:00",
+      "lap": 4,
+      "category": "Flag",
+      "flag": "DOUBLE YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "DOUBLE YELLOW IN TRACK SECTOR 13"
+    },
+    {
+      "date": "2026-10-25T20:09:08+00:00",
+      "lap": 4,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 11"
+    },
+    {
+      "date": "2026-10-25T20:09:19+00:00",
+      "lap": 4,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "TURN 13 INCIDENT INVOLVING CAR 63 (RUS) NOTED - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:04:59)"
+    },
+    {
+      "date": "2026-10-25T20:09:19+00:00",
+      "lap": 4,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 13"
+    },
+    {
+      "date": "2026-10-25T20:09:22+00:00",
+      "lap": 4,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 12"
+    },
+    {
+      "date": "2026-10-25T20:09:25+00:00",
+      "lap": 4,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 11"
+    },
+    {
+      "date": "2026-10-25T20:09:58+00:00",
+      "lap": 4,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 5 (BOR) TIME 1:53.937 DELETED - TRACK LIMITS AT TURN 11 LAP 2 15:06:41"
+    },
+    {
+      "date": "2026-10-25T20:11:19+00:00",
+      "lap": 5,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 14 (ALO) TIME 1:53.570 DELETED - TRACK LIMITS AT TURN 12 LAP 2 15:06:58"
+    },
+    {
+      "date": "2026-10-25T20:11:34+00:00",
+      "lap": 5,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "FIA STEWARDS: TURN 13 INCIDENT INVOLVING CAR 63 (RUS) UNDER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:04:59)"
+    },
+    {
+      "date": "2026-10-25T20:13:17+00:00",
+      "lap": 6,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "TURN 11 INCIDENT INVOLVING CAR 5 (BOR) NOTED - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:06:39)"
+    },
+    {
+      "date": "2026-10-25T20:14:47+00:00",
+      "lap": 7,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "INCIDENT INVOLVING CARS 41 (LIN) AND 55 (SAI) NOTED (15:03:49)"
+    },
+    {
+      "date": "2026-10-25T20:16:35+00:00",
+      "lap": 8,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "TURN 13 INCIDENT INVOLVING CARS 87 (BEA) AND 10 (GAS) NOTED - CAUSING A COLLISION (15:06:57)"
+    },
+    {
+      "date": "2026-10-25T20:16:53+00:00",
+      "lap": 8,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 81 (PIA) TIME 1:42.300 DELETED - TRACK LIMITS AT TURN 12 LAP 7 15:15:17"
+    },
+    {
+      "date": "2026-10-25T20:17:36+00:00",
+      "lap": 9,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 63 (RUS) - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:04:59)"
+    },
+    {
+      "date": "2026-10-25T20:19:22+00:00",
+      "lap": 10,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 87 (BEA) TIME 1:42.992 DELETED - TRACK LIMITS AT TURN 9 LAP 7 15:14:55"
+    },
+    {
+      "date": "2026-10-25T20:19:44+00:00",
+      "lap": 10,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 2"
+    },
+    {
+      "date": "2026-10-25T20:20:46+00:00",
+      "lap": 11,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 3"
+    },
+    {
+      "date": "2026-10-25T20:21:17+00:00",
+      "lap": 11,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "FIA STEWARDS: TURN 11 INCIDENT INVOLVING CAR 5 (BOR) UNDER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:06:39)"
+    },
+    {
+      "date": "2026-10-25T20:23:26+00:00",
+      "lap": 12,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 1 (NOR) TIME 1:41.931 DELETED - TRACK LIMITS AT TURN 12 LAP 10 15:20:22"
+    },
+    {
+      "date": "2026-10-25T20:26:47+00:00",
+      "lap": 14,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 87 (BEA) TIME 1:46.078 DELETED - TRACK LIMITS AT TURN 12 LAP 12 15:24:06"
+    },
+    {
+      "date": "2026-10-25T20:28:06+00:00",
+      "lap": 15,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "FIA STEWARDS: INCIDENT INVOLVING CARS 41 (LIN) AND 55 (SAI) REVIEWED NO FURTHER INVESTIGATION (15:03:49)"
+    },
+    {
+      "date": "2026-10-25T20:28:13+00:00",
+      "lap": 15,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 44 (HAM) LAP DELETED - TRACK LIMITS AT TURN 9 LAP 14 15:26:32 (PIT)"
+    },
+    {
+      "date": "2026-10-25T20:31:32+00:00",
+      "lap": 17,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "FIA STEWARDS: TURN 13 INCIDENT INVOLVING CARS 87 (BEA) AND 10 (GAS) UNDER INVESTIGATION - CAUSING A COLLISION (15:06:57)"
+    },
+    {
+      "date": "2026-10-25T20:33:19+00:00",
+      "lap": 18,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 27 (HUL) TIME 1:43.727 DELETED - TRACK LIMITS AT TURN 19 LAP 16 15:31:28"
+    },
+    {
+      "date": "2026-10-25T20:35:25+00:00",
+      "lap": 19,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "FIA STEWARDS: 10 SECOND TIME PENALTY FOR CAR 87 (BEA) - CAUSING A COLLISION (15:06:57)"
+    },
+    {
+      "date": "2026-10-25T20:35:58+00:00",
+      "lap": 20,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 23 (ALB) TIME 1:42.242 DELETED - TRACK LIMITS AT TURN 12 LAP 18 15:34:57"
+    },
+    {
+      "date": "2026-10-25T20:43:16+00:00",
+      "lap": 24,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "FIA STEWARDS: PENALTY SERVED - 5 SECOND TIME PENALTY FOR CAR 63 (RUS) - LEAVING THE TRACK AND GAINING AN ADVANTAGE (15:04:59)"
+    },
+    {
+      "date": "2026-10-25T20:45:16+00:00",
+      "lap": 25,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "FIA STEWARDS: PENALTY SERVED - 10 SECOND TIME PENALTY FOR CAR 87 (BEA) - CAUSING A COLLISION (15:06:57)"
+    },
+    {
+      "date": "2026-10-25T20:45:48+00:00",
+      "lap": 25,
+      "category": "Flag",
+      "flag": "DOUBLE YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "DOUBLE YELLOW IN TRACK SECTOR 3"
+    },
+    {
+      "date": "2026-10-25T20:45:48+00:00",
+      "lap": 25,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 2"
+    },
+    {
+      "date": "2026-10-25T20:45:51+00:00",
+      "lap": 25,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 3"
+    },
+    {
+      "date": "2026-10-25T20:45:51+00:00",
+      "lap": 25,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 2"
+    },
+    {
+      "date": "2026-10-25T20:49:09+00:00",
+      "lap": 27,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "TURN 1 INCIDENT INVOLVING CARS 43 (COL) AND 41 (LIN) NOTED (15:45:42)"
+    },
+    {
+      "date": "2026-10-25T20:51:22+00:00",
+      "lap": 29,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 81 (PIA) TIME 1:42.880 DELETED - TRACK LIMITS AT TURN 2 LAP 26 15:47:01"
+    },
+    {
+      "date": "2026-10-25T20:51:45+00:00",
+      "lap": 29,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 16 (LEC) TIME 1:41.346 DELETED - TRACK LIMITS AT TURN 12 LAP 26 15:47:25"
+    },
+    {
+      "date": "2026-10-25T20:52:32+00:00",
+      "lap": 29,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 43 (COL) TIME 1:44.549 DELETED - TRACK LIMITS AT TURN 12 LAP 27 15:50:16"
+    },
+    {
+      "date": "2026-10-25T20:53:58+00:00",
+      "lap": 30,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 43 (COL) AND 41 (LIN) REVIEWED NO FURTHER INVESTIGATION (15:45:42)"
+    },
+    {
+      "date": "2026-10-25T20:54:32+00:00",
+      "lap": 30,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 6 (HAD) TIME 1:41.374 DELETED - TRACK LIMITS AT TURN 12 LAP 28 15:51:11"
+    },
+    {
+      "date": "2026-10-25T20:56:45+00:00",
+      "lap": 32,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 43 (COL) LAP DELETED - TRACK LIMITS AT TURN 11 LAP 30 15:55:10 (PIT)"
+    },
+    {
+      "date": "2026-10-25T21:02:45+00:00",
+      "lap": 35,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 12"
+    },
+    {
+      "date": "2026-10-25T21:02:56+00:00",
+      "lap": 35,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 11"
+    },
+    {
+      "date": "2026-10-25T21:04:38+00:00",
+      "lap": 36,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 12 (ANT) TIME 1:40.062 DELETED - TRACK LIMITS AT TURN 12 LAP 35 16:02:27"
+    },
+    {
+      "date": "2026-10-25T21:07:18+00:00",
+      "lap": 38,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 27 (HUL) TIME 1:41.669 DELETED - TRACK LIMITS AT TURN 9 LAP 33 15:59:50"
+    },
+    {
+      "date": "2026-10-25T21:25:55+00:00",
+      "lap": 49,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 55 (SAI) TIME 1:41.423 DELETED - TRACK LIMITS AT TURN 12 LAP 47 16:24:55"
+    },
+    {
+      "date": "2026-10-25T21:28:34+00:00",
+      "lap": 51,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 6"
+    },
+    {
+      "date": "2026-10-25T21:28:35+00:00",
+      "lap": 51,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 5"
+    },
+    {
+      "date": "2026-10-25T21:28:47+00:00",
+      "lap": 51,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 6"
+    },
+    {
+      "date": "2026-10-25T21:28:47+00:00",
+      "lap": 51,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 5"
+    },
+    {
+      "date": "2026-10-25T21:29:10+00:00",
+      "lap": 51,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 63 (RUS) TIME 1:40.967 DELETED - TRACK LIMITS AT TURN 12 LAP 49 16:26:31"
+    },
+    {
+      "date": "2026-10-25T21:29:27+00:00",
+      "lap": 51,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 9"
+    },
+    {
+      "date": "2026-10-25T21:29:27+00:00",
+      "lap": 51,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 8"
+    },
+    {
+      "date": "2026-10-25T21:29:34+00:00",
+      "lap": 51,
+      "category": "SafetyCar",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "VSC DEPLOYED"
+    },
+    {
+      "date": "2026-10-25T21:29:59+00:00",
+      "lap": 52,
+      "category": "Flag",
+      "flag": "DOUBLE YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "DOUBLE YELLOW IN TRACK SECTOR 9"
+    },
+    {
+      "date": "2026-10-25T21:30:40+00:00",
+      "lap": 52,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 55 (SAI) TIME 1:41.983 DELETED - TRACK LIMITS AT TURN 12 LAP 48 16:26:36"
+    },
+    {
+      "date": "2026-10-25T21:30:43+00:00",
+      "lap": 52,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 63 (RUS) TIME 1:40.614 DELETED - TRACK LIMITS AT TURN 12 LAP 50 16:28:12"
+    },
+    {
+      "date": "2026-10-25T21:31:23+00:00",
+      "lap": 52,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 23 (ALB) TIME 1:43.985 DELETED - TRACK LIMITS AT TURN 20 LAP 49 16:28:52"
+    },
+    {
+      "date": "2026-10-25T21:33:24+00:00",
+      "lap": 53,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 9"
+    },
+    {
+      "date": "2026-10-25T21:33:24+00:00",
+      "lap": 53,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 8"
+    },
+    {
+      "date": "2026-10-25T21:33:25+00:00",
+      "lap": 53,
+      "category": "SafetyCar",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "VSC ENDING"
+    },
+    {
+      "date": "2026-10-25T21:33:27+00:00",
+      "lap": 53,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 9"
+    },
+    {
+      "date": "2026-10-25T21:33:27+00:00",
+      "lap": 53,
+      "category": "Flag",
+      "flag": "YELLOW",
+      "scope": "Sector",
+      "driver": null,
+      "message": "YELLOW IN TRACK SECTOR 8"
+    },
+    {
+      "date": "2026-10-25T21:33:38+00:00",
+      "lap": 53,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Track",
+      "driver": null,
+      "message": "TRACK CLEAR"
+    },
+    {
+      "date": "2026-10-25T21:33:38+00:00",
+      "lap": 53,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 8"
+    },
+    {
+      "date": "2026-10-25T21:33:38+00:00",
+      "lap": 53,
+      "category": "Flag",
+      "flag": "CLEAR",
+      "scope": "Sector",
+      "driver": null,
+      "message": "CLEAR IN TRACK SECTOR 9"
+    },
+    {
+      "date": "2026-10-25T21:34:28+00:00",
+      "lap": 54,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 18 (STR) TIME 1:41.101 DELETED - TRACK LIMITS AT TURN 9 LAP 49 16:27:39"
+    },
+    {
+      "date": "2026-10-25T21:36:35+00:00",
+      "lap": 55,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 14 (ALO) TIME 1:41.669 DELETED - TRACK LIMITS AT TURN 15 LAP 47 16:25:07"
+    },
+    {
+      "date": "2026-10-25T21:36:43+00:00",
+      "lap": 55,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 6 (HAD) TIME 1:40.824 DELETED - TRACK LIMITS AT TURN 12 LAP 54 16:35:45"
+    },
+    {
+      "date": "2026-10-25T21:37:16+00:00",
+      "lap": 55,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 81 (PIA) TIME 1:41.297 DELETED - TRACK LIMITS AT TURN 12 LAP 54 16:36:01"
+    },
+    {
+      "date": "2026-10-25T21:39:06+00:00",
+      "lap": 56,
+      "category": "Flag",
+      "flag": "CHEQUERED",
+      "scope": "Track",
+      "driver": null,
+      "message": "CHEQUERED FLAG"
+    },
+    {
+      "date": "2026-10-25T21:39:23+00:00",
+      "lap": 56,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 63 (RUS) TIME 1:41.072 DELETED - TRACK LIMITS AT TURN 12 LAP 54 16:36:02"
+    },
+    {
+      "date": "2026-10-25T21:40:26+00:00",
+      "lap": 56,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 63 (RUS) TIME 1:41.167 DELETED - TRACK LIMITS AT TURN 12 LAP 55 16:37:43"
+    },
+    {
+      "date": "2026-10-25T21:40:47+00:00",
+      "lap": 56,
+      "category": "Flag",
+      "flag": "BLACK AND WHITE",
+      "scope": "Driver",
+      "driver": 63,
+      "message": "BLACK AND WHITE FLAG FOR CAR 63 (RUS) - TRACK LIMITS"
+    },
+    {
+      "date": "2026-10-25T21:43:10+00:00",
+      "lap": 56,
+      "category": "Other",
+      "flag": null,
+      "scope": null,
+      "driver": null,
+      "message": "CAR 14 (ALO) TIME 1:40.943 DELETED - TRACK LIMITS AT TURN 11 LAP 54 16:37:26"
+    }
+  ],
+  "neutralisations": {
+    "safetyCars": 0,
+    "virtualSafetyCars": 0,
+    "redFlags": 0
+  }
+}

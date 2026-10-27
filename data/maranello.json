@@ -1,0 +1,15 @@
+{
+  "latitude": 44.53439,
+  "longitude": 10.873008,
+  "time": "2026-10-26T21:30",
+  "timezone": "Europe/Rome",
+  "temperature": 9.3,
+  "apparentTemperature": 7.8,
+  "humidity": 88,
+  "precipitation": 0,
+  "weatherCode": 1,
+  "description": "Mainly clear / partly cloudy",
+  "windSpeed": 6.2,
+  "windDirection": 201,
+  "pressure": 1006.7
+}

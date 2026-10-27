@@ -1,0 +1,13 @@
+{
+  "sessionKey": 11396,
+  "meetingKey": 1297,
+  "name": "Race",
+  "type": "Race",
+  "circuit": "Austin",
+  "country": "United States",
+  "location": "Austin",
+  "dateStart": "2026-10-25T20:00:00+00:00",
+  "dateEnd": "2026-10-25T22:00:00+00:00",
+  "year": 2026,
+  "availability": "available"
+}
